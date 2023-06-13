@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles/styles.css" rel="stylesheet"/>
+        <title>Landing Page</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <form id="formulario">
+            <section class="seccion-color">
+                <div>
+                    <h1>DETAILING CIDCAR</h1>
+                    <h2>Ven y tu auto quedará como nuevo</h2>
+                </div>
+                <img class="style-img-1" src="./assets/img-3.jpg" alt="img-1"/>
+            </section>
+            <section>
+                <div class="card-box">
+                    <img src="./assets/img-4.jpg" alt="img-1"/>
+                    <h1>Lavado integral</h1>
+                    <p>Incluye lavado, aspirado</p>
+                    <p>Acondicionador de plasticos</p>
+                    <p>Renovador de neumaticos</p>
+                </div>
+                <div class="card-box">
+                    <img src="./assets/img-5.jpg" alt="img-1"/>
+                    <h1>Pulidos</h1>
+                    <p>Pulido de focos</p>
+                    <p>Pulido carroceria</p>
+                    <p>Sellado sintetico</p>
+                </div>
+                <div class="card-box">
+                    <img src="./assets/img-6.jpg" alt="img-1"/>
+                    <h1>Sellado ceramico</h1>
+                    <p>Descontaminacion quimica</p>
+                    <p>Descontaminacion mecanica</p>
+                    <p>Sellado ceramico</p>
+                </div>
+            </section>
+            <section class="seccion-color">
+                <div>
+                    <h1>¡No pierdas esta oportunidad!</h1>
+                    <h3>Registrate con el link y recibiras un descuento en tu primer servicio</h3>
+                </div>
+                <div class="divisor"></div>
+                <button id="btn-submit">Registrate aquí</button>
+                <div class="container">
+                    <table>
+                        <tbody>
+                                <tr><td>Nombres:</td><td><input type="text" id="nombres"/></td></tr>
+                                <tr><td>Apellidos:</td><td><input type="text" id="apellidos"/></td></tr>
+                                <tr><td>Fecha de nacimiento:</td><td><input type="date" id="fecha" max="15-06-2023" min="01-01-1940"/></td></tr>
+                                <tr><td>Telefono:</td><td><select type="text" id="codigo" size="1"><option value="+569" selected>Chile</option></select><input type="number" id="telefono" size="1"/></td></tr>
+                            </form>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <div id="registros"></div>
+            </section>
+        </form>
+    </body>
+</html>
+<script src="./formulario/Form.js"></script>
